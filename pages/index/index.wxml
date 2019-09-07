@@ -1,0 +1,5 @@
+<view class="container" bindtap="close">
+  <view class="select-wrap">
+    <select id="select" options="{{options}}" key="city_id" text="city_name" bind:change="change"></select>
+  </view>
+</view>
